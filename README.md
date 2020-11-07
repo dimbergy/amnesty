@@ -1,2 +1,2 @@
 # amnesty
-Amnesty International website design & development (student project PHP/MySQLi?Bootstrap)
+Amnesty International website design & development (student project PHP/MySQLi/Bootstrap)
