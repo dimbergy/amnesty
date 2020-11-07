@@ -1,0 +1,736 @@
+body {
+    width: 100%;
+    height: 100%;
+    font-family: "Raleway",sans-serif;
+    color: #fff;
+    background-color: #000;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0 0 35px;
+	text-transform: uppercase;
+	font-family:'Raleway', sans-serif;
+	font-weight: 700;
+	letter-spacing: 1px;
+	font-style: normal;
+	color: #FFFFFF;
+}
+
+p {
+    margin: 0 0 25px;
+    font-size: 18px;
+    line-height: 1.5;
+    font-family:'Raleway', sans-serif;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+@media(min-width:767px) {
+    p {
+	margin: 0 0 35px;
+	font-size: 16px;
+	line-height: 1.6;
+	font-family: "Raleway", sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	color: #FFFFFF;
+    }
+}
+
+a {
+    color: #28c3ab;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+.help-block.with-errors {
+    color: #d44950;
+}
+
+.form-control.error-input {
+    border: 2px solid #d44950;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+    color: #176e61;
+}
+
+.light {
+    font-weight: 400;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: #000;
+}
+
+.navbar-brand {
+    font-weight: 700;
+}
+
+.navbar-brand:focus {
+    outline: 0;
+}
+
+.navbar-custom a {
+    color: #fff;
+}
+
+.navbar-custom .nav li a {
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li.active {
+    outline: 0;
+    background-color: rgba(255,255,255,.2);
+}
+
+.navbar-toggle {
+    padding: 4px 6px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.navbar-toggle:focus,
+.navbar-toggle:active {
+    outline: 0;
+}
+
+#contact-form {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        border-bottom: 0;
+        letter-spacing: 1px;
+        background: 0 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+        background-color: #000;
+    }
+
+    .navbar-custom.top-nav-collapse {
+        border-bottom: 1px solid rgba(255,255,255,.3);
+    }
+}
+
+.intro {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.intro-body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.discrimination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 800px;
+    padding: 150px 0 50px 0;
+    text-align: center;
+    color: #fff;
+    background: url(../img/discrimination.jpg) no-repeat bottom center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.discrimination-body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.torture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 800px;
+    padding: 150px 0 50px 0;
+    text-align: center;
+    color: #fff;
+    background: url(../img/torture.jpg) no-repeat bottom center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.torture-body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+.sexualrights {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 800px;
+    padding: 150px 0 50px 0;
+    text-align: center;
+    color: #fff;
+    background: url(../img/sexualrights.jpg) no-repeat bottom center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.sexualrights-body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+.dignity {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 800px;
+    padding: 150px 0 50px 0;
+    text-align: center;
+    color: #fff;
+    background: url(../img/dignity.jpg) no-repeat bottom center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.dignity-body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.brand-heading {
+    font-size: 40px;
+}
+
+.brand-heading2 {
+    font-size: 40px;
+}
+
+.intro-text {
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+}
+
+@media(min-width:767px) {
+    .intro {
+        height: 100%;
+        padding: 0;
+    }
+
+    .brand-heading {
+	font-size: 95px;
+	font-family: 'Raleway', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+    }
+
+.brand-heading2 {
+	font-size: 95px;
+	font-family: 'Raleway', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+    }
+
+    .intro-text {
+	font-size: 25px;
+	font-family: 'Raleway', sans-serif;
+	font-style: normal;
+	font-weight: 100;
+    }
+}
+
+.btn-circle {
+    width: 70px;
+    height: 70px;
+    margin-top: 15px;
+    padding: 7px 16px;
+    border: 2px solid #fff;
+    border-radius: 35px;
+    font-size: 40px;
+    color: #fff;
+    background: 0 0;
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+
+.btn-circle:hover,
+.btn-circle:focus {
+    outline: 0;
+    color: #fff;
+    background: rgba(255,255,255,.1);
+}
+
+.page-scroll .btn-circle i.animated {
+    -webkit-transition-property: -webkit-transform;
+    -webkit-transition-duration: 1s;
+    -moz-transition-property: -moz-transform;
+    -moz-transition-duration: 1s;
+}
+
+.page-scroll .btn-circle:hover i.animated {
+    -webkit-animation-name: pulse;
+    -moz-animation-name: pulse;
+    -webkit-animation-duration: 1.5s;
+    -moz-animation-duration: 1.5s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+}
+
+@-webkit-keyframes pulse {    
+    0 {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    50% {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@-moz-keyframes pulse {    
+    0 {
+        -moz-transform: scale(1);
+        transform: scale(1);
+    }
+
+    50% {
+        -moz-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+
+    100% {
+        -moz-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+.content-section {
+    padding-top: 100px;
+}
+
+.about-section {
+    width: 100%;
+    padding: 50px 0;
+    color: #000;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.about-section h2, .about-section p {
+color: black;
+}
+
+.history-section {
+	
+	padding-top: 100px;
+	
+	}
+
+.download-section {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+#map {
+    width: 100%;
+    height: 200px;
+    margin-top: 100px;
+}
+
+@media(min-width:767px) {
+    .content-section {
+        padding-top: 150px;
+    }
+
+    .download-section {
+        padding: 100px 0;
+    }
+
+    #map {
+        height: 400px;
+        margin-top: 250px;
+    }
+}
+
+.btn {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.btn-default {
+    border: 1px solid #28c3ab;
+    color: #28c3ab;
+    background-color: transparent;
+}
+
+.btn-default:hover,
+.btn-default:focus {
+    border: 1px solid #28c3ab;
+    outline: 0;
+    color: #000;
+    background-color: #28c3ab;
+}
+
+.btn-huge {
+    padding: 25px;
+    font-size: 26px;
+}
+
+.banner-social-buttons {
+    margin-top: 0;
+}
+
+@media(max-width:1199px) {
+    ul.banner-social-buttons {
+        margin-top: 15px;
+    }
+}
+
+@media(max-width:767px) {
+    ul.banner-social-buttons>li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.banner-social-buttons>li:last-child {
+        margin-bottom: 0;
+    }
+}
+
+::-moz-selection {
+    text-shadow: none;
+    background: #fcfcfc;
+    background: rgba(255,255,255,.2);
+}
+
+::selection {
+    text-shadow: none;
+    background: #fcfcfc;
+    background: rgba(255,255,255,.2);
+}
+
+img::selection {
+    background: 0 0;
+}
+
+img::-moz-selection {
+    background: 0 0;
+}
+
+body {
+    webkit-tap-highlight-color: rgba(255,255,255,.2);
+}
+
+.logo {
+margin: -25px 0 0 25px;
+}
+
+.margintop20 {
+	margin-top: 20px;
+}
+
+.margintop30 {
+	margin-top: 30px;
+}
+
+.margintop40 {
+	margin-top: 40px;
+}
+
+.margintop50 {
+	margin-top: 50px;
+}
+
+.margintop60 {
+	margin-top: 60px;
+}
+
+.margintop70 {
+	margin-top: 70px;
+}
+
+.margintop80 {
+	margin-top: 80px;
+}
+
+.margintop100 {
+	margin-top: 100px;
+}
+
+.marginbot20 {
+	
+	margin-bottom:20px;
+	}
+	
+.marginbot30 {
+	
+	margin-bottom:30px;
+	}
+	
+.marginbot40 {
+	
+	margin-bottom:40px;
+	}
+	
+.marginbot50 {
+	
+	margin-bottom:50px;
+	}
+	
+.marginbot60 {
+	
+	margin-bottom:60px;
+	}
+	
+marginbot80 {
+	
+	margin-bottom:80px;
+	}
+	
+.img-link:hover {
+	opacity:1;
+}
+
+.img-link {
+	opacity: 0.5;
+	}
+
+.carousel-caption p{
+	
+	background-color: rgba(0,0,0,0.7);
+	padding: 20px;
+	font-size: 14px;
+	}
+	
+#discbody ul li {
+		font-family: 'Raleway', sans-serif;
+		font-size:16px;
+		}
+		
+.keyfacts {
+	
+	background-color: #eeedea;
+	padding: 20px 15px;
+	}
+	
+.keyfacts p, .keyfacts h1, .keyfacts h2 {
+		color:black;
+		}
+		
+.keyfacts p {
+		font-size:14px;
+		}
+		
+.glyphicon {	
+	font-size: 40px;
+		color: black;}
+			
+.form-group{
+				text-align: left;
+			}
+			
+label, input, textarea {
+		font-family: 'Raleway', sans-serif;
+				font-size:16px;}
+				
+input::-webkit-input-placeholder {
+    color: blue;
+    font-family: 'Raleway', sans-serif;
+}
+	
+textarea::-webkit-input-placeholder {
+    color: blue;
+    font-family: 'Raleway', sans-serif;
+}	
+
+.glyphicon {
+	font-size: 16px;
+	color: white;
+	padding-right: 25px;
+	}
+	
+.glyphicon:hover, .glyphicon:active, .glyphicon:visited {
+	color: #28c3ab;
+	}
+	
+.sbm {padding-top: 15px;}
+
+.btn-info  {
+    background-color: #28c3ab;
+}
+
+.btn-info:hover, .btn-info:active, .btn-info:visited {
+	background-color: white;
+	color: #28c3ab;
+}
+
+#contact h4 {
+	color: #6163a5;
+}
+
+#contact .fa {
+	padding-right: 15px;
+}
+
+#contact .fa-twitter {
+	color: #1dcaff;
+}
+
+#contact .fa-map-marker {
+	color: #ffff00;
+}
+
+#contact .fa-phone {
+	color: #cc6ca2;
+}
+
+#contact .fa-envelope-o, #contact .fa-envelope {
+	color: #fbad18;
+}
+#contact p {
+	font-size: 14px;
+	font-family: 'Raleway', sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	}
+	
+#contact .fa-facebook {
+	color: #3b5998;
+}
+
+#contact .fa-google-plus {
+color: #d34836;
+}
+#contact .fa-send {
+	color: white;
+}
+
+#contact .fa-envelope-o:hover,
+#contact .fa-twitter:hover,
+#contact .fa-facebook:hover,
+#contact .fa-google-plus:hover
+ {
+	opacity:0.6;
+}
+
+.glyphicon-arrow-down {
+color: black;
+font-size: 40px;	
+}
+
+.modal-content {
+background-color: #E9E39A;
+}
+
+.modal-dialog {
+	width:1030px;
+}
+
+.modal-title {
+	color: grey;
+}
+
+.paddingbot50 {
+	padding-bottom: 50px;
+}
+
+.paddingtop50 {
+	padding-top: 50px;
+}
+
+.paddingtop100 {
+	padding-top: 100px;
+}
+
+.contact-info p {
+	margin-top: -20px;
+}
+
+select, option {
+	font-family:'Raleway', sans-serif;;
+}
+
+.messages p {
+    color: white;
+}
+
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="8e28a549-f4f2-42be-bfbc-d392640ca392" name="amnesty" url="http://dimitriosvergados.eu">
+        <fileTransfer host="dimitriosvergados.eu" port="21" rootFolder="/httpdocs/amnesty">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveCommand="LIST" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,9 @@
+RewriteEngine on
+
+RewriteRule ^discrimination mission.php [L]
+RewriteRule ^torture mission.php [L]
+RewriteRule ^sexualrights mission.php [L]
+RewriteRule ^dignity mission.php [L]
+
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule !.*\.php$ %{REQUEST_FILENAME}.php [QSA,L]
