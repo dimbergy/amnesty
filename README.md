@@ -1,2 +1,2 @@
 # amnesty
-Amnesty International Sample Website
+Amnesty International website design & development (student project PHP/MySQLi?Bootstrap)
